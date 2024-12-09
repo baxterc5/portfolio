@@ -259,38 +259,36 @@ nav {
     color: #c4708e;
 }
 
-/* Projects Page */
-.projects-text-section {
+/* Projects Page Adjustments */
+
+/* Centered Heading Section */
+.projects-heading {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.projects-text-section h2 {
-    font-size: 100px;
+.projects-heading h2 {
+    font-size: 50px;
     margin: 0;
     font-family: 'CustomFont', serif;
+    color: #333;
 }
 
-.projects-text-section .accent-divider {
+.accent-divider {
     height: 4px;
     background-color: #eaa6b6;
     border-radius: 2px;
     margin: 10px auto;
-    width: 60%;
+    width: 60px; /* Shorter accent divider for style */
 }
 
-.projects-text-section .intro-text {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-top: 20px;
-}
-
-/* Projects Grid */
+/* Projects Grid Layout */
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding: 0 20px;
 }
 
 /* Individual Project Card */
@@ -315,6 +313,7 @@ nav {
     font-size: 24px;
     margin: 10px 0;
     font-family: 'Playfair Display', serif;
+    color: #333;
 }
 
 .project-card p {
@@ -322,57 +321,29 @@ nav {
     color: #555;
 }
 
+/* Hover Effect for Project Cards */
 .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Projects Page Styles */
-.projects-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+/* Button Styling for PDF Links */
+.project-btn {
+    background-color: #ffcce0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
 }
 
-/* Projects Grid Section */
-.projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.project-btn:hover {
+    background-color: #eaa6b6;
 }
 
-.project-card {
-    width: 300px;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.project-card h3 {
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-.project-card p {
-    font-size: 16px;
-    color: #555;
-}
-
-.project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
 /* --- CONTACT PAGE --- */
 .contact-main-container {
     display: flex;
