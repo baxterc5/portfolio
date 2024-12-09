@@ -57,13 +57,11 @@ nav {
     background-color: #ffcce0;
 }
 
-/* Current Page Highlight */
 .nav-links a.current {
     color: white;
     background-color: #ffcce0;
 }
 
-/* Super Thin Accent Line Below Nav */
 .accent-line {
     height: 2px;
     background-color: #eaa6b6;
@@ -138,7 +136,6 @@ nav {
     transform: scale(1.05);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
-/* About Page Specific Styles */
 
 /* --- ABOUT PAGE --- */
 .about-main-container {
@@ -260,8 +257,6 @@ nav {
 }
 
 /* Projects Page Adjustments */
-
-/* Centered Heading Section */
 .projects-heading {
     text-align: center;
     margin-bottom: 40px;
@@ -279,10 +274,9 @@ nav {
     background-color: #eaa6b6;
     border-radius: 2px;
     margin: 10px auto;
-    width: 60px; /* Shorter accent divider for style */
+    width: 60px;
 }
 
-/* Projects Grid Layout */
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -291,7 +285,6 @@ nav {
     padding: 0 20px;
 }
 
-/* Individual Project Card */
 .project-card {
     background-color: #ffffff;
     border-radius: 15px;
@@ -321,13 +314,11 @@ nav {
     color: #555;
 }
 
-/* Hover Effect for Project Cards */
 .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Button Styling for PDF Links */
 .project-btn {
     background-color: #ffcce0;
     color: white;
