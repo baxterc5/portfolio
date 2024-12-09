@@ -462,7 +462,9 @@ nav {
         flex-wrap: wrap;
     }
 
-    .main-container {
+    .main-container,
+    .about-main-container,
+    .contact-main-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -470,22 +472,21 @@ nav {
     }
 
     .left-section,
-    .right-section {
+    .right-section,
+    .about-image-section,
+    .about-text-section,
+    .contact-left-section,
+    .contact-right-section {
         width: 100%;
         margin: 0;
         padding: 10px;
     }
 
-    .right-section .image-container img {
-        width: 90%;
-        max-width: 600px;
-        height: auto;
-        margin-bottom: 20px;
-        border-radius: 15px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    .contact-details {
+        text-align: center;
     }
 
-    .blurb-container {
+    .contact-form {
         width: 90%;
     }
 }
